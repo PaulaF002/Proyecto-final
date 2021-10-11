@@ -1,0 +1,69 @@
+body {
+	background-color: cornflowerblue;
+
+	background: 
+		linear-gradient(
+			rgba(0,0,0,100%),
+			rgba(0,0,0,80%),
+			rgba(0,0,0,0%)
+		)no-repeat,
+		url(img/pizzafonfo.jpg);
+		/*https://wall.alphacoders.com/big.php?i=429071&lang=Spanish*/
+	background-size: cover;	
+}
+
+h1 {
+	background-color: crimson;
+	color: white;
+	text-align: center;
+}
+
+ul {
+border-width: 2px;
+border-style: solid;
+border-color: black;
+float: right;
+width: 450px;
+border: 2px dashed rebeccapurple;
+text-align: center;
+ }
+
+ li {
+ 	border-width: 1px;
+ 	border-style: solid;
+ 	border-color: purple;
+ 	margin: 0px 10px;
+ 	text-align: center;
+ 	display: inline-block;
+ 	background-color: rebeccapurple;
+ 	border-radius: 20px;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	color: white;
+ 	width: 120px;
+ 	display: inline-block;
+ }
+
+ a:hover {
+ 	color: darkmagenta;
+ 	background-color: white;
+ 	border-radius: 20px;
+ }
+
+ div {
+ 	width: 30px;
+ 	height: 700px;
+ 	background-color: pink;
+ 	padding-top: 15px;
+ 	padding-right: 10px;
+ 	padding-left: 10px;
+ }
+
+ img {
+ 	position: absolute;
+ 	height: 100px;
+ 	left: 33px;
+ 	top: 6px;
+ }
